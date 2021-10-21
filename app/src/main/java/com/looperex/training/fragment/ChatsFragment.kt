@@ -1,12 +1,13 @@
-package com.looperex.training
+package com.looperex.training.fragment
 
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
+import com.looperex.training.R
 
-class CallsFragment: Fragment() {
+class ChatsFragment : Fragment() {
 
 
     override fun onCreateView(
@@ -14,8 +15,7 @@ class CallsFragment: Fragment() {
         container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        return inflater.inflate(R.layout.calls_fragment,container, false)
+        return inflater.inflate(R.layout.chats_fragment,container,false)
     }
-
 
 }
