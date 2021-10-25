@@ -13,4 +13,14 @@
         android:textSize="18dp"
         android:padding="12dp"/>
 
+    <ImageView
+        android:id="@+id/myIV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="12dp"
+        android:src="@drawable/ic_baseline_favorite_border_24"
+        app:layout_constraintTop_toTopOf="@id/myTV"
+        app:layout_constraintBottom_toBottomOf="@id/myTV"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

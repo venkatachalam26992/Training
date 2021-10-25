@@ -13,7 +13,7 @@ class MyViewPagerAdapter(var myFragment: MyFragmentActivity, supportFragmentMana
         return tabCount
     }
 
-    override fun getPageTitle(position: Int): CharSequence? {
+    /*override fun getPageTitle(position: Int): CharSequence? {
         when(position) {
             0 -> {
                 return "Calls"
@@ -28,7 +28,7 @@ class MyViewPagerAdapter(var myFragment: MyFragmentActivity, supportFragmentMana
                 return "Calls"
             }
         }
-    }
+    }*/
 
     override fun getItem(position: Int): Fragment {
         when (position) {

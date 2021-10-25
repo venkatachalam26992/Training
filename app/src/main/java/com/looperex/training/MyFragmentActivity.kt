@@ -28,9 +28,9 @@ class MyFragmentActivity : AppCompatActivity() {
         myViewPager.setAdapter(adapter)
 
         //myTab.setupWithViewPager(myViewPager)
-        myTab.setupWithViewPager(myViewPager,true)
+        //myTab.setupWithViewPager(myViewPager,true)
 
-        /*myTab.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener{
+        myTab.addOnTabSelectedListener(object : TabLayout.OnTabSelectedListener{
             override fun onTabSelected(tab: TabLayout.Tab?) {
                 myViewPager.currentItem = tab!!.position
             }
@@ -62,7 +62,7 @@ class MyFragmentActivity : AppCompatActivity() {
 
             }
 
-        })*/
+        })
 
     }
 }
